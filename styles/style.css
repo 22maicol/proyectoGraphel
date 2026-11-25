@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial, helvetica, sans-serif ;
+    background: color #f4f4f4; ;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+header{
+    background: #24282b;
+    color: white;
+    border-bottom: 3px solid #1293d4;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+header .contenedor{
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 28px;
+
+}
+
+.azul{
+    color: #1293d4;
+
+}
+
+nav {
+    display: flex;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a.activo{
+    color: #1293d4;
+}
+
+.hero{
+    background-image: url("../assets/images/cabecera.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2{
+    font-size: 45px;
+    margin-bottom: 15px;
+
+}
+
+.hero p{
+    font-size: 18px;
+    width: 700px;
+}
+
+.boletin{
+    background: #24282b;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.boletin .contenedor{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boletin form{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boletin input{
+    padding: 10px;
+    width: 280px;
+}
+
+.btn-naranja{
+    background: #e8491d;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin-left: 10px;
+}
+
+.contenido{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.principal{
+    flex: 2;
+    margin-right: 40px;
+}
+
+.lateral{
+    flex: 1;
+    background: #35424a;
+    color: white;
+    padding: 20px;
+}
+
+
+.lateral h3{
+    margin-bottom: 15px;
+}
+
+.caja-oscura{
+    background: #35424a;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.principal img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.columnas{
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.columna{
+    flex: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.columna img{
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.servicio{
+    background: #e6e6e6;
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+.servicio h3{
+    margin-bottom: 10px;
+}
+
+
